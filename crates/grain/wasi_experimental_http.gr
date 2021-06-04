@@ -1,0 +1,6 @@
+import foreign wasm req: (WasmI32, WasmI32, WasmI32, WasmI32, WasmI32, WasmI32, WasmI32, WasmI32, WasmI32, WasmI32) -> WasmI32 from "wasi_experimental_http"
+import foreign wasm body_read: (WasmI32, WasmI32, WasmI32, WasmI32) -> WasmI32 from "wasi_experimental_http"
+import foreign wasm close: (WasmI32) -> WasmI32 from "wasi_experimental_http"
+import foreign wasm header_get: (WasmI32, WasmI32, WasmI32, WasmI32, WasmI32, WasmI32) -> WasmI32 from "wasi_experimental_http"
+import foreign wasm headers_get_all: (WasmI32, WasmI32, WasmI32, WasmI32) -> WasmI32 from "wasi_experimental_http"
+
